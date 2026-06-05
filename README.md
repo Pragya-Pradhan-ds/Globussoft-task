@@ -104,8 +104,8 @@ output/amazon_laptop_20260604_125959.csv
 
 ## 📝 Notes
 
-- Amazon's HTML layout changes frequently. If selectors break, update the `SELECTORS` dictionary in `amazon_scraper.py` — all selectors are centralised there for easy maintenance.
-- Use `--no-headless` to visually debug what the browser is seeing during a scrape.
-- This project is intended for **educational purposes** only. Always respect [Amazon's Terms of Service](https://www.amazon.in/gp/help/customer/display.html?nodeId=508088) when scraping.
+- Amazon's HTML layout changes frequently. If selectors break, update SELECTORS in amazon_scraper.py — all selectors are centralised in one dictionary.
+- Random sleep intervals are used between page loads to mimic human behaviour.
+- Use --no-headless to visually debug what the browser is doing.
 
 ---
