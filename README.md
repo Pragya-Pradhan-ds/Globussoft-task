@@ -51,11 +51,25 @@ git clone https://github.com/<your-username>/<your-repo>.git
 cd Task_1_Webscraping
 ```
 
-### 2. Install dependencies
+### 2. Create and activate a virtual environment
+
+```bash
+# Create the virtual environment
+python -m venv venv
+
+# Activate it
+# On Windows:
+venv\Scripts\activate
+
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
----
+```
 
 ## 🚀 Usage
 
