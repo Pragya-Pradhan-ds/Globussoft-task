@@ -20,7 +20,7 @@ A Python-based web scraper that extracts laptop listings from Amazon.in using **
 ## 🗂️ Project Structure
 
 ```
-task1/
+Task_1_Webscraping/
 ├── amazon_scraper.py      ← Main scraper script
 ├── requirements.txt       ← Python dependencies
 ├── README.md              ← You're reading it
@@ -34,7 +34,6 @@ task1/
 
 | Field | Description |
 |-------|-------------|
-| `ASIN` | Amazon's unique product identifier |
 | `Title` | Full product name |
 | `Price` | Listed price in ₹ |
 | `Rating` | Star rating (e.g. `4.2`) |
@@ -49,18 +48,13 @@ task1/
 
 ```bash
 git clone https://github.com/<your-username>/<your-repo>.git
-cd task1
+cd Task_1_Webscraping
 ```
 
 ### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
-```
-
-> **Note:** Google Chrome must be installed on your system.  
-> ChromeDriver is managed automatically via `webdriver-manager`, or you can download it manually from [chromedriver.chromium.org](https://chromedriver.chromium.org) — ensure it matches your Chrome version.
-
 ---
 
 ## 🚀 Usage
@@ -81,7 +75,7 @@ python amazon_scraper.py --no-headless
 Results are saved to the `output/` folder with a timestamp:
 
 ```
-output/amazon_laptop_20260527_143022.csv
+output/amazon_laptop_20260604_125959.csv
 ```
 
 ---
@@ -115,7 +109,3 @@ output/amazon_laptop_20260527_143022.csv
 - This project is intended for **educational purposes** only. Always respect [Amazon's Terms of Service](https://www.amazon.in/gp/help/customer/display.html?nodeId=508088) when scraping.
 
 ---
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
